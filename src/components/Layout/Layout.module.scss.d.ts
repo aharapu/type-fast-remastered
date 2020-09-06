@@ -1,1 +1,1 @@
-export const testing: string;
+export const header: string;

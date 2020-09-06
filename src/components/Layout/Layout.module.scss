@@ -1,5 +1,5 @@
-.testing {
-  margin: 3rem auto;
-  max-width: 650px;
-  padding: 0 1rem;
+@import '../../styles/variables.scss';
+
+.header {
+  background-color: $color-gray;
 }

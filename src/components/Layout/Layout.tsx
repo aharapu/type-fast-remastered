@@ -10,16 +10,10 @@ const Layout: React.FC = ({ children }) => {
   return (
     <>
       <Header />
-      <Container fluid>
-        {children}
-        <Row>
-          <Col
-            xs={12}
-            sm={{ span: 8, offset: 2 }}
-            md={{ span: 6, offset: 3 }}
-          ></Col>
-        </Row>
-      </Container>
+      <Container fluid>{children}</Container>
+      <div className={`${styles.footer} bg-light`}>
+        Made with love by Valentin.
+      </div>
     </>
   )
 }
